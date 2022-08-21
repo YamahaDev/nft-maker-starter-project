@@ -144,6 +144,11 @@ const NftUploader = () => {
         ファイルを選択
         <input className="nftUploadInput" type="file" accept=".jpg , .jpeg , .png" onChange={imageToNFT} />
       </Button>
+
+      <div className="preview-link-div">
+        <a target="_blank" rel="noreferrer" href="https://goerli.pixxiti.com/">Preview Pixxiti</a>
+      </div>
+
     </div>
   );
 };
