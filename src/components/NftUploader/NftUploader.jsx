@@ -137,12 +137,12 @@ const NftUploader = () => {
           <img src={ImageLogo} alt="imagelogo" />
           <p>ここにドラッグ＆ドロップしてね</p>
         </div>
-        <input className="imageUploadInput" multiple name="imageURL" type="file" accept=".jpg , .jpeg , .png" onChange={imageToNFT}/>
+        <input className="nftUploadInput" multiple name="imageURL" type="file" accept=".jpg , .jpeg , .png" onChange={imageToNFT}/>
       </div>
       <p>または</p>
       <Button variant="contained">
         ファイルを選択
-        <input className="imageUploadInput" type="file" accept=".jpg , .jpeg , .png" onChange={imageToNFT} />
+        <input className="nftUploadInput" type="file" accept=".jpg , .jpeg , .png" onChange={imageToNFT} />
       </Button>
     </div>
   );
